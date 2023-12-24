@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Eiger App</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_cart">Keranjang</string>
+    <string name="menu_profile">Profil</string>
+    <string name="required_price">Rp. %s</string>
+    <string name="minus_symbol">—</string>
+    <string name="plus_symbol">＋</string>
+    <string name="add_to_cart">Tambah ke Keranjang : Rp. %s </string>
+    <string name="total_order">Total harga : Rp. %s </string>
+    <string name="back">Back</string>
+    <string name="eiger_product">Eiger Product</string>
+    <string name="share_message">Hei! Saya memiliki %1$s Produk Eiger, harganya adalah %2$s. Mau eksplore bersama saya?</string>
+    <string name="name">Muhamad Zulfikar Fikri</string>
+    <string name="email">a152bsy2146@bangkit.academy</string>
+</resources>
