@@ -20,6 +20,7 @@ import dicoding.zulfikar.eigerapp.R
 import dicoding.zulfikar.eigerapp.di.Injection
 import dicoding.zulfikar.eigerapp.ui.ViewModelFactory
 import dicoding.zulfikar.eigerapp.ui.common.UiState
+import dicoding.zulfikar.eigerapp.ui.common.formatCurrency
 import dicoding.zulfikar.eigerapp.ui.component.CartItem
 import dicoding.zulfikar.eigerapp.ui.component.OrderButton
 
@@ -100,7 +101,7 @@ fun CartContent(
             }
         }
         OrderButton(
-            text = stringResource(R.string.total_order, state.totalRequiredPrice),
+            text = stringResource(R.string.total_order, formatCurrency(state.totalRequiredPrice)),
             enabled = state.orderEigerProduct.isNotEmpty(),
             onClick = {
                 onOrderButtonClicked(shareMessage)
